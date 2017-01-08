@@ -291,10 +291,6 @@ $( document ).ready(function() {
 								arrayErrors.push("\n - Please select Friday Night Double Housing - Yes/No");//add error
 							}
 
-							if( !$('input:checked[name=transportation-saturday]').val() ){//if input is !not checked
-								arrayErrors.push("\n - Please select Saturday Night Transportation - Yes/No");//add error
-							}
-
 							if( !$('input:checked[name=breakfast-friday]').val() ){//if input is !not checked
 								arrayErrors.push("\n - Please select Friday Breakfast - Yes/No");//add error
 							}
@@ -403,7 +399,6 @@ $( document ).ready(function() {
 				formResults.push( 'preevent='+$('form#wizard input:checked[name=preevent]').val() );
 				formResults.push( 'double-housing-thursday='+$('form#wizard input:checked[name=double-housing-thursday]').val() );
 				formResults.push( 'double-housing-friday='+$('form#wizard input:checked[name=double-housing-friday]').val() );
-				formResults.push( 'transportation-saturday='+$('form#wizard input:checked[name=transportation-saturday]').val() );
 				formResults.push( 'breakfast-friday='+$('form#wizard input:checked[name=breakfast-friday]').val() );
 				formResults.push( 'opt-shirt='+$('form#wizard input:checked[name=opt-shirt]').val() );
 			} else 
