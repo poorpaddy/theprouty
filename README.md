@@ -5,3 +5,5 @@ Theme creates for Friends of Norris Cotton Cancer Center's annual event The Prou
 You may openly leverage code from this theme however all images are property of Friends of Norris Cotton Cancer Center and you must obtain licenses for the fonts or use different ones.
 
 Theme is heavily reliant on Advanced Custom Fields PRO, Sphere, Slider Revolution, UberMenu 3 plugins.
+
+Note: sphere directory is not related to the theme. contains scripting hosted within the Kintera Sphere FAF event.
