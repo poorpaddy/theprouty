@@ -1235,31 +1235,31 @@ $(document).ready(function(){
 			
 			$("input[name=ProductID]:radio").change(function () {
 				//Walking Options
-				if ($("input[value=2203602]").prop('checked') == true || $("input[value=2203603]").prop('checked') == true || $("input[value=2203604]").prop('checked') == true || $("input[value=2203605]").prop('checked') == true){
+				if ($("input[value=2274079]").prop('checked') == true || $("input[value=2274080]").prop('checked') == true || $("input[value=2274081]").prop('checked') == true || $("input[value=2274082]").prop('checked') == true){
 					walkingOptions();
 				}
 				//Cycling Options
-				if ($("input[value=2203606]").prop('checked') == true || $("input[value=2203607]").prop('checked') == true || $("input[value=2203608]").prop('checked') == true || $("input[value=2203609]").prop('checked') == true){
+				if ($("input[value=2274083]").prop('checked') == true || $("input[value=2274084]").prop('checked') == true || $("input[value=2274085]").prop('checked') == true || $("input[value=2274086]").prop('checked') == true){
 					cyclingOptions();
 				}
 				//Virtual Options
-				if ($("input[value=2203614]").prop('checked') == true){
+				if ($("input[value=2274091]").prop('checked') == true){
 					virtualOptions();
 				}
 				//Ultimate Options
-				if ($("input[value=2203616]").prop('checked') == true){
+				if ($("input[value=2274092]").prop('checked') == true){
 					ultimateOptions();
 				}
 				//Ulti-mate Options
-				if ($("input[value=2203617]").prop('checked') == true){
+				if ($("input[value=2274093]").prop('checked') == true){
 					ultiMateOptions();
 				}
 				//Rowing Options
-				if ($("input[value=2203610]").prop('checked') == true || $("input[value=2203611]").prop('checked') == true || $("input[value=2203612]").prop('checked') == true || $("input[value=2203613]").prop('checked') == true){
+				if ($("input[value=2274087]").prop('checked') == true || $("input[value=2274088]").prop('checked') == true || $("input[value=2274089]").prop('checked') == true || $("input[value=2274090]").prop('checked') == true){
 					rowerOptions();
 				}
 				//Golfing Options
-				if ($("input[value=2203618]").prop('checked') == true){
+				if ($("input[value=2274094]").prop('checked') == true){
 					golferOptions();
 				}
 			});
@@ -1268,40 +1268,40 @@ $(document).ready(function(){
 			$('.row-addfees,.row-attlFee,.row-addInfo,.row-hanoverMember,.row-memberName,.row-greenFee,.row-virtualActivity,.row-virtualLocation,.row-virtualTime,.row-planComplete,.row-firstProuty,.row-timesProutyed,.row-coach,.row-ultimateName,.row-thursdayBus,.row-thursdayDinner,.row-thursdayDouble,.row-fridayDouble,.row-saturdayBus,.row-breakfastFriday,.row-boatType,.row-whoElse,.row-boatTrailer,.row-whoseTrailer,.row-boatName,.row-golfer2,.row-clubAffiliation,.row-launchTime,.row-contactMethod,.row-rowingDirector,.row-foursome,.row-golfer3,.row-golfer4,.row-golfTime,.row-shirtSize').hide();
 			var currentSelection = $("input[name=ProductID]:checked").val();
 			switch(currentSelection){
-				case '2203602':
-				case '2203603':
-				case '2203604':
-				case '2203605':
+				case '2274079':
+				case '2274084':
+				case '2274081':
+				case '2274082':
 				//Walking
 					walkingOptions();
 				break;
-				case '2203606':
+				case '2274083':
 				case '2203607':
-				case '2203608':
-				case '2203609':
+				case '2274085':
+				case '2274086':
 				//Cycling
 					cyclingOptions();
 				break;
-				case '2203614':
+				case '2274091':
 				//Virtual
 					virtualOptions();
 				break;
-				case '2203616':
+				case '2274092':
 				//Ultimate
 					ultimateOptions();
 				break;
-				case '2203617':
+				case '2274093':
 				//Ulti-mate
 					ultiMateOptions();
 				break;
-				case '2203610':
-				case '2203611':
-				case '2203612':
-				case '2203613':
+				case '2274087':
+				case '2274088':
+				case '2274089':
+				case '2274090':
 				//Rowing
 					rowerOptions();
 				break;
-				case '2203618':
+				case '2274094':
 				//Golfing
 					golferOptions();
 				break;
@@ -1312,31 +1312,31 @@ $(document).ready(function(){
 			//Family Member Edit Detect Regtype Change
 			$("input[name=ProductID]:radio").change(function () {
 				//Walking Options
-				if ($("input[value=2203602]").prop('checked') == true || $("input[value=2203603]").prop('checked') == true || $("input[value=2203604]").prop('checked') == true || $("input[value=2203605]").prop('checked') == true){
+				if ($("input[value=2274079]").prop('checked') == true || $("input[value=2274080]").prop('checked') == true || $("input[value=2274081]").prop('checked') == true || $("input[value=2274082]").prop('checked') == true){
 					walkingOptions();
 				}
 				//Cycling Options
-				if ($("input[value=2080792]").prop('checked') == true || $("input[value=2080793]").prop('checked') == true){
+				if ($("input[value=2274083]").prop('checked') == true || $("input[value=2274084]").prop('checked') == true || $("input[value=2274085]").prop('checked') == true || $("input[value=2274086]").prop('checked') == true){
 					cyclingOptions();
 				}
 				//Virtual Options
-				if ($("input[value=2203614]").prop('checked') == true){
+				if ($("input[value=2274091]").prop('checked') == true){
 					virtualOptions();
 				}
 				//Ultimate Options
-				if ($("input[value=2203616]").prop('checked') == true){
+				if ($("input[value=2274092]").prop('checked') == true){
 					ultimateOptions();
 				}
 				//Ulti-mate Options
-				if ($("input[value=2203617]").prop('checked') == true){
+				if ($("input[value=2274093]").prop('checked') == true){
 					ultiMateOptions();
 				}
 				//Rowing Options
-				if ($("input[value=2203610]").prop('checked') == true || $("input[value=2203611]").prop('checked') == true || $("input[value=2203612]").prop('checked') == true || $("input[value=2203613]").prop('checked') == true){
+				if ($("input[value=2274087]").prop('checked') == true || $("input[value=2274088]").prop('checked') == true || $("input[value=2274089]").prop('checked') == true || $("input[value=2274090]").prop('checked') == true){
 					rowerOptions();
 				}
 				//Golfing Options
-				if ($("input[value=2080789]").prop('checked') == true){
+				if ($("input[value=2274094]").prop('checked') == true){
 					golferOptions();
 				}
 			});
