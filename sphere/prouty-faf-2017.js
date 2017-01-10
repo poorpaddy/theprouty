@@ -592,7 +592,7 @@ $(document).ready(function(){
 				$(this).html(loginHelplet);
 				$('.loginHelpletFirst').css(loginHelpletFirst);
 				$('.loginHelpletSecond').css(loginHelpletSecond);
-				$('h4 > center:contains("Are you a registered Participant?")').html("If you've registered as a 2016<br>participant please login below.");
+				$('h4 > center:contains("Are you a registered Participant?")').html("If you've registered as a 2017<br>participant please login below.");
 			}
 		});
 	}
