@@ -771,7 +771,7 @@ $(document).ready(function(){
 		$('.row-addInfo').closest('table').hide();
 	}
 	function notAutoFamily(){
-		$('.regTypes,.row-addfees,.row-attlFee,.row-addInfo,.row-hanoverMember,.row-memberName,.row-greenFee,.row-virtualActivity,.row-virtualActivity,.row-virtualLocation,.row-virtualTime,.row-planComplete,.row-firstProuty,.row-timesProutyed,.row-coach,.row-ultimateName,.row-thursdayBus,.row-thursdayDinner,.row-thursdayDouble,.row-fridayDouble,.row-saturdayBus,row-breakfastFriday,.row-boatType,.row-whoElse,.row-boatTrailer,.row-whoseTrailer,.row-boatName,.row-golfer2,.row-clubAffiliation,.row-launchTime,.row-contactMethod,.row-rowingDirector,.row-foursome,.row-golfer3,.row-golfer4,.row-golfTime,.row-shirtSize').hide();
+		$('.regTypes,.row-addfees,.row-attlFee,.row-addInfo,.row-hanoverMember,.row-memberName,.row-greenFee,.row-virtualActivity,.row-virtualActivity,.row-virtualLocation,.row-virtualTime,.row-planComplete,.row-firstProuty,.row-timesProutyed,.row-coach,.row-ultimateName,.row-thursdayBus,.row-thursdayDinner,.row-thursdayDouble,.row-fridayDouble,.row-saturdayBus,.row-breakfastFriday,.row-boatType,.row-whoElse,.row-boatTrailer,.row-whoseTrailer,.row-boatName,.row-golfer2,.row-clubAffiliation,.row-launchTime,.row-contactMethod,.row-rowingDirector,.row-foursome,.row-golfer3,.row-golfer4,.row-golfTime,.row-shirtSize').hide();
 	}
 	function autoIndividual(){
 		$('.row-fees,.row-addfees,.row-attlFee').hide();
@@ -779,7 +779,7 @@ $(document).ready(function(){
 		$('.row-addInfo').closest('table').hide();
 	}
 	function autoFamily(){
-		$('.regTypes,.row-addfees,.row-attlFee,.row-addInfo,.row-hanoverMember,.row-memberName,.row-greenFee,.row-virtualActivity,.row-virtualLocation,.row-virtualTime,.row-planComplete,.row-firstProuty,.row-timesProutyed,.row-coach,.row-ultimateName,.row-thursdayBus,.row-thursdayDinner,.row-thursdayDouble,.row-fridayDouble,.row-saturdayBus,row-breakfastFriday,.row-boatType,.row-whoElse,.row-boatTrailer,.row-whoseTrailer,.row-boatName,.row-golfer2,.row-clubAffiliation,.row-launchTime,.row-contactMethod,.row-rowingDirector,.row-foursome,.row-golfer3,.row-golfer4,.row-golfTime,.row-shirtSize').hide();
+		$('.regTypes,.row-addfees,.row-attlFee,.row-addInfo,.row-hanoverMember,.row-memberName,.row-greenFee,.row-virtualActivity,.row-virtualLocation,.row-virtualTime,.row-planComplete,.row-firstProuty,.row-timesProutyed,.row-coach,.row-ultimateName,.row-thursdayBus,.row-thursdayDinner,.row-thursdayDouble,.row-fridayDouble,.row-saturdayBus,.row-breakfastFriday,.row-boatType,.row-whoElse,.row-boatTrailer,.row-whoseTrailer,.row-boatName,.row-golfer2,.row-clubAffiliation,.row-launchTime,.row-contactMethod,.row-rowingDirector,.row-foursome,.row-golfer3,.row-golfer4,.row-golfTime,.row-shirtSize').hide();
 	}
 
 	function walkingOptions(){
