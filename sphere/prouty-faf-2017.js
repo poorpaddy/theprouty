@@ -844,7 +844,7 @@ $(document).ready(function(){
 		hideFieldRows();
 		$('.row-addfees td').html('<strong>Ultimate Options</strong>');
 		$('select[name=Field5791631]').val('Ultimate');
-		$('.row-addfees,.row-attlFee,.row-thursdayBus,.row-thursdayDinner,.row-fridayDouble,.row-saturdayBus').show().insertAfter('.row-golfer');
+		$('.row-addfees,.row-attlFee,.row-thursdayBus,.row-thursdayDinner,.row-fridayDouble,.row-saturdayBus').show().insertAfter('.row-golfer'),.row-breakfastFriday').show().insertAfter('.row-golfer');
 	}
 	function ultiMateOptions(){
 		hideFieldRows();
