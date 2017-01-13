@@ -19,7 +19,7 @@
 		<div class="w1">
 			<header id="header">
 				<div class="container">
-					<strong class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>"></a></strong>
+					<strong class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/prouty-logo.png" alt="<?php bloginfo( 'name' ); ?>"></a></strong>
 							<div class="nav-holder">
 								<?php ubermenu( 'header-menu' , array( 'theme_location' => 'primary' ) ); ?>
 							</div>
