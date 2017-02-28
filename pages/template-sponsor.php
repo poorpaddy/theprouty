@@ -72,17 +72,17 @@ get_header();
 										</ul>
 										<?php endif;?>
 									</div>
-									<?php wp_reset_query(); ?>
+									<?php wp_reset_query(); ?>-->
 									<?php
-									//	$category = get_field('categorie3');
-									//	$args=array(
-									//		'cat'      => $category,
-									//		'post_type' => 'sponsors',
-									//		'posts_per_page'   => -1,
-									//		'order'	=> 'ASC',
-									//		'orderby'	=> 'title',
-									//		'post_status' => 'publish');
-									//		query_posts($args);?>
+										$category = get_field('categorie3');
+										$args=array(
+											'cat'      => $category,
+											'post_type' => 'sponsors',
+											'posts_per_page'   => -1,
+											'order'	=> 'ASC',
+											'orderby'	=> 'title',
+											'post_status' => 'publish');
+											query_posts($args);?>
 									<div class="sponsor-hold">
 										<div class="head">
 											<h2>Gold Wheel</h2>
@@ -102,7 +102,7 @@ get_header();
 										</ul>
 										<?php endif;?>
 									</div>
-									<?php wp_reset_query(); ?>-->
+									<?php wp_reset_query(); ?>
 									<?php
 										$category = get_field('categorie4');
 										$args=array(
